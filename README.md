@@ -9,6 +9,5 @@ github.com/bluewd111/go-template
 テスト
 
 ```zsh
-cd app/functions
-go test
+go test ./app/...
 ```

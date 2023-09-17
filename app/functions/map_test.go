@@ -1,7 +1,6 @@
 package functions
 
 import (
-	"fmt"
 	"sort"
 	"testing"
 )
@@ -27,10 +26,6 @@ func TestMapValues(t *testing.T) {
 	expected := []*int{new(int), new(int)}
 	*expected[0] = 1
 	*expected[1] = 2
-
-	for _, v := range values {
-		fmt.Println(*v) // 出力して確認
-	}
 
 	// 取得した値が期待する値と一致するか確認
 	for i, v := range values {
